@@ -35,7 +35,7 @@ Use the `SHA256:` value, remove `:` separators, and keep uppercase hex.
 
 - `config.yml`: public/default repo metadata (no secrets).
 - `fdroid-icon.png`: repository icon shown in F-Droid clients (replace with your own PNG when ready).
-- `metadata/`: app metadata, one `.yml` per package id; optional `metadata/<packageId>.png` supplies the store icon (do not use an `Icon:` key in the YAML — it is not valid build metadata).
+- `metadata/`: app metadata, one `.yml` per package id. For a store icon, fdroidserver expects the Fastlane-style path `metadata/<packageId>/<locale>/images/icon.png` (not a flat `metadata/<packageId>.png`; that is ignored). Do not use an `Icon:` key in the YAML — it is not valid build metadata.
 - `repo/`: generated repository index files and APK binaries.
 
 ## App onboarding contract
