@@ -1,6 +1,6 @@
-# Shared F-Droid Repo
+# Iniciativa Travazap F-Droid Repo
 
-Simple binary F-Droid repository that can host releases from multiple app repositories.
+Binary F-Droid repository for Iniciativa Travazap Android apps (multiple packages; not limited to a single product).
 
 ## Hosting
 
@@ -34,7 +34,8 @@ Use the `SHA256:` value, remove `:` separators, and keep uppercase hex.
 ## Repository layout
 
 - `config.yml`: public/default repo metadata (no secrets).
-- `metadata/`: app metadata, one file per package id.
+- `fdroid-icon.png`: repository icon shown in F-Droid clients (replace with your own PNG when ready).
+- `metadata/`: app metadata, one file per package id (optional `Icon: *.png` beside the YAML lists the app in clients even when the APK uses adaptive icons only).
 - `repo/`: generated repository index files and APK binaries.
 
 ## App onboarding contract
