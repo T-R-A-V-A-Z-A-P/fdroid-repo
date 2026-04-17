@@ -1,9 +1,13 @@
-AuthorName: ''
 Categories:
-- fdroid-repo
-CurrentVersionCode: 2147483647
-IssueTracker: ''
-Name: e-Card
-SourceCode: ''
-Summary: ''
-WebSite: ''
+  - Development
+License: MIT
+SourceCode: https://github.com/T-R-A-V-A-Z-A-P/usp-card
+IssueTracker: https://github.com/T-R-A-V-A-Z-A-P/usp-card/issues
+
+AutoName: USP Card (e-Card)
+Summary: Mock university digital ID card demo
+Description: |-
+  <p>Flutter demo app that mimics a university digital ID card screen.
+  It is a mock for prototyping and learning, not an official USP product.</p>
+
+  <p>Local device data only; no server synchronization.</p>

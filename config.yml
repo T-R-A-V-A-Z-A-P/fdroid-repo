@@ -1,0 +1,6 @@
+repo_url: https://T-R-A-V-A-Z-A-P.github.io/fdroid-repo/repo
+repo_name: Iniciativa Travazap F-Droid Repo
+repo_description: Binary F-Droid repository for Iniciativa Travazap Android apps (multiple packages).
+repo_icon: fdroid-icon.png
+archive_older: 0
+make_current_version_link: false
