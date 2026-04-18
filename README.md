@@ -6,20 +6,20 @@ Binary F-Droid repository for Iniciativa Travazap Android apps (multiple package
 
 - Repository is expected to publish from the `gh-pages` branch.
 - GitHub Pages base URL:
-  - `https://T-R-A-V-A-Z-A-P.github.io/fdroid-repo/`
+  - `https://T-R-A-V-A-Z-A-P.github.io/fdroid/`
 - F-Droid repo endpoint:
-  - `https://T-R-A-V-A-Z-A-P.github.io/fdroid-repo/repo`
+  - `https://T-R-A-V-A-Z-A-P.github.io/fdroid/repo`
 
 ## Add in F-Droid client
 
 1. Open **Repositories** in your F-Droid-compatible client.
 2. Add:
-   - URL: `https://T-R-A-V-A-Z-A-P.github.io/fdroid-repo/repo`
+   - URL: `https://T-R-A-V-A-Z-A-P.github.io/fdroid/repo`
    - Fingerprint: SHA-256 of the F-Droid repo signing cert.
 
 Recommended share URL format:
 
-`https://T-R-A-V-A-Z-A-P.github.io/fdroid-repo/repo?fingerprint=<SHA256_NO_COLONS_UPPERCASE>`
+`https://T-R-A-V-A-Z-A-P.github.io/fdroid/repo?fingerprint=<SHA256_NO_COLONS_UPPERCASE>`
 
 ## Fingerprint retrieval
 
